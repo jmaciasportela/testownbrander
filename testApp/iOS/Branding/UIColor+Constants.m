@@ -40,7 +40,7 @@
 //Tint color of tool bar
 + (UIColor*)colorOfToolBar{
     //return [UIColor colorWithRed:125/256.0f green:206/256.0f blue:240/256.0f alpha:1.0];
-    return [UIColor colorWithRed:0/256.0f green:0/256.0f blue:0/256.0f alpha:1.0];
+    return [UIColor colorWithRed:103/256.0f green:79/256.0f blue:255/256.0f alpha:1.0];
 }
 //ios_preview_tab_bar_color
 //Color of background view in toolBar bar, only for iOS 7 for transparency
@@ -55,12 +55,12 @@
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7)
     {
         //return [UIColor colorWithRed:255/255.0f green:255/255.0f blue:255/255.0f alpha:1.0];
-        return [UIColor colorWithRed:0/256.0f green:0/256.0f blue:0/256.0f alpha:1.0];
+        return [UIColor colorWithRed:209/256.0f green:255/256.0f blue:218/256.0f alpha:1.0];
 
     } else {
         //To iOS 6
         //return [UIColor colorWithRed:255/255.0f green:255/255.0f blue:255/255.0f alpha:1.0];
-        return [UIColor colorWithRed:0/256.0f green:0/256.0f blue:0/256.0f alpha:1.0];
+        return [UIColor colorWithRed:209/256.0f green:255/256.0f blue:218/256.0f alpha:1.0];
     }
 
 }
@@ -109,13 +109,13 @@
 //Text color of url in login view
 + (UIColor*)colorOfURLUserPassword{
     //return [UIColor colorWithRed:60/256.0f green:60/256.0f blue:59/256.0f alpha:1.0];
-    return [UIColor colorWithRed:99/256.0f green:239/256.0f blue:255/256.0f alpha:1.0];
+    return [UIColor colorWithRed:255/256.0f green:82/256.0f blue:38/256.0f alpha:1.0];
 }
 //ios_credentials_info_color
 //Text color of login text
 + (UIColor*)colorOfLoginText {
      //return [UIColor whiteColor];
-     return [UIColor colorWithRed:99/256.0f green:239/256.0f blue:255/256.0f alpha:1.0];
+     return [UIColor colorWithRed:255/256.0f green:82/256.0f blue:38/256.0f alpha:1.0];
 }
 //ios_credentials_error_info_color
 //Text color of error credentials
